@@ -3,7 +3,7 @@
 ## 📋 Project Overview
 This project is a full-stack real-time translation bridge designed to facilitate communication between doctors and patients who speak different languages. It acts as an intelligent intermediary, translating spoken or typed input instantly and providing AI-powered medical summarization of the session.
 
-**Live Demo:** [Insert Your Streamlit Share Link Here]
+**Live Demo:** https://nao-assessment.streamlit.app/
 
 ## 🚀 Features Implemented
 * **Real-Time Translation:** Bi-directional translation between Doctor (English) and Patient (Spanish, French, Hindi, Mandarin, etc.).
@@ -38,6 +38,11 @@ This project is a full-stack real-time translation bridge designed to facilitate
     ```bash
     streamlit run main.py
     ```
+DEMO-laptop
+<img width="1510" height="713" alt="image" src="https://github.com/user-attachments/assets/8695578a-a410-4aa0-9483-eee5707c2adb" />
+<img width="1510" height="713" alt="image" src="https://github.com/user-attachments/assets/8695578a-a410-4aa0-9483-eee5707c2adb" />
+IN-mobile
+Press arrows from left for summary and search option
 
 ## ⚠️ Known Limitations & Trade-offs
 * **Audio Transcription:** Due to the strict 1-hour time limit and API constraints, audio is stored as `.wav` files for playback but is not automatically transcribed to text. In a production environment, I would integrate OpenAI Whisper for Speech-to-Text.
@@ -49,3 +54,4 @@ I selected the **Qwen 2.5 7B** model because it offers the best balance of reaso
 
 ---
 *Built for the Nao Medical SDE Assessment*
+
