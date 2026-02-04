@@ -45,7 +45,7 @@ IN-mobile
 Press arrows from left for summary and search option
 
 ## ⚠️ Known Limitations & Trade-offs
-* **Audio Transcription:** Due to the strict 1-hour time limit and API constraints, audio is stored as `.wav` files for playback but is not automatically transcribed to text. In a production environment, I would integrate OpenAI Whisper for Speech-to-Text.
+* **Audio Transcription:** Due to the strict 12-hour time limit and API constraints, audio is stored as `.wav` files for playback but is not automatically transcribed to text. In a production environment, I would integrate OpenAI Whisper for Speech-to-Text.
 * **Database:** SQLite was chosen for ease of deployment and speed. For a scaled production app, this would be replaced with PostgreSQL (RDS) to handle concurrent writes better.
 * **AI Latency:** The application relies on the free tier of Hugging Face, which may occasionally experience cold starts or rate limits (handled via error catching in the code).
 
